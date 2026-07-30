@@ -1,0 +1,16 @@
+import canonicalLaneMathlib.AdmissibleClass
+
+namespace HautevilleHouse
+namespace MaterialsEngineeringElectronicMaterialsEngineeringLemmaCanonicalLaneLean
+
+structure MaterialsEngineeringElectronicMaterialsEngineeringLemmaAdmittedObject where
+  space : Type
+  topology : TopologicalSpace space
+  electronicProperties : Prop
+  conclusion : electronicProperties
+
+def MaterialsEngineeringElectronicMaterialsEngineeringLemmaWitnessClosed (O : MaterialsEngineeringElectronicMaterialsEngineeringLemmaAdmittedObject) : Prop :=
+  O.electronicProperties
+
+end MaterialsEngineeringElectronicMaterialsEngineeringLemmaCanonicalLaneLean
+end HautevilleHouse
